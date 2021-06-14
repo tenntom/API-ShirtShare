@@ -1,0 +1,103 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "firstName": "Bob",
+            "lastName": "Smith",
+            "email": "bob@smith.com",
+            "address": "100 Main Street",
+            "city": "Nashville",
+            "state": "TN",
+            "zip": "37206"
+        },
+        {
+            "id": 2,
+            "firstName": "Jenny",
+            "lastName": "Jones",
+            "email": "jenny@jones.com",
+            "address": "100 Ivy Lane",
+            "city": "Nashville",
+            "state": "TN",
+            "zip": "37216"
+        },
+        {
+            "id": 3,
+            "firstName": "Jimmy",
+            "lastName": "Jackson",
+            "email": "jim@jackson.com",
+            "address": "100 Oakdale Drive",
+            "city": "Nashville",
+            "state": "TN",
+            "zip": "37215"
+        }
+
+    ],
+    "shirts": [
+        {
+            "id": 1,
+            "title": "spiderman",
+            "userId": 1,
+            "sizeId": 3,
+            "imageURL": "https://www.gapfactory.com/webcontent/0019/851/912/cn19851912.jpg",
+            "description": "Cool spiderman tee.",
+            "timestamp": 1623684004,
+            "keywords" : ["spiderman", "marvel", "avengers"]
+        },
+        {
+            "id": 2,
+            "title": "Ironmman fliies",
+            "userId": 2,
+            "sizeId": 4,
+            "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71EXBIPOaaL._AC_UY1000_.jpg",
+            "description": "Cool ironman tee.",
+            "timestamp": 1623684100,
+            "keywords" : ["ironman", "marvel", "avengers"]
+        }
+    ],
+    "messages": [
+        {
+            "id": 1,
+            "senderShirtId": 1,
+            "recipientId": 2,
+            "text": "How about my spiderman shirt for your ironman?",
+            "read": true,
+            "accepted": false,
+            "timestamp": 1623684524
+        }
+        {
+            "id": 2,
+            "senderShirtId": 2,
+            "recipientId": 1,
+            "text": "How about my ironman shirt for your spiderman?",
+            "read": true,
+            "accepted": false,
+            "timestamp": 1623684524
+        }
+    ],
+    "sizes": [
+        {
+            "id": 1,
+            "size": "x-small"
+        },
+        {
+            "id": 2,
+            "size": "small"
+        },
+        {
+            "id": 3,
+            "size": "medium"
+        },
+        {
+            "id": 4,
+            "size": "large"
+        },
+        {
+            "id": 5,
+            "size": "x-large"
+        },
+        {
+            "id": 6,
+            "size": "xx-large"
+        }
+    ]
+}
