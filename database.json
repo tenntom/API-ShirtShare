@@ -1,103 +1,200 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "firstName": "Bob",
-            "lastName": "Smith",
-            "email": "bob@smith.com",
-            "address": "100 Main Street",
-            "city": "Nashville",
-            "state": "TN",
-            "zip": "37206"
-        },
-        {
-            "id": 2,
-            "firstName": "Jenny",
-            "lastName": "Jones",
-            "email": "jenny@jones.com",
-            "address": "100 Ivy Lane",
-            "city": "Nashville",
-            "state": "TN",
-            "zip": "37216"
-        },
-        {
-            "id": 3,
-            "firstName": "Jimmy",
-            "lastName": "Jackson",
-            "email": "jim@jackson.com",
-            "address": "100 Oakdale Drive",
-            "city": "Nashville",
-            "state": "TN",
-            "zip": "37215"
-        }
-
-    ],
-    "shirts": [
-        {
-            "id": 1,
-            "title": "spiderman",
-            "userId": 1,
-            "sizeId": 3,
-            "imageURL": "https://www.gapfactory.com/webcontent/0019/851/912/cn19851912.jpg",
-            "description": "Cool spiderman tee.",
-            "timestamp": 1623684004,
-            "keywords" : ["spiderman", "marvel", "avengers"]
-        },
-        {
-            "id": 2,
-            "title": "Ironmman fliies",
-            "userId": 2,
-            "sizeId": 4,
-            "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71EXBIPOaaL._AC_UY1000_.jpg",
-            "description": "Cool ironman tee.",
-            "timestamp": 1623684100,
-            "keywords" : ["ironman", "marvel", "avengers"]
-        }
-    ],
-    "messages": [
-        {
-            "id": 1,
-            "senderShirtId": 1,
-            "recipientId": 2,
-            "text": "How about my spiderman shirt for your ironman?",
-            "read": true,
-            "accepted": false,
-            "timestamp": 1623684524
-        }
-        {
-            "id": 2,
-            "senderShirtId": 2,
-            "recipientId": 1,
-            "text": "How about my ironman shirt for your spiderman?",
-            "read": true,
-            "accepted": false,
-            "timestamp": 1623684524
-        }
-    ],
-    "sizes": [
-        {
-            "id": 1,
-            "size": "x-small"
-        },
-        {
-            "id": 2,
-            "size": "small"
-        },
-        {
-            "id": 3,
-            "size": "medium"
-        },
-        {
-            "id": 4,
-            "size": "large"
-        },
-        {
-            "id": 5,
-            "size": "x-large"
-        },
-        {
-            "id": 6,
-            "size": "xx-large"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "email": "bob@smith.com",
+      "address": "100 Main Street",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37206"
+    },
+    {
+      "id": 2,
+      "firstName": "Jenny",
+      "lastName": "Jones",
+      "email": "jenny@jones.com",
+      "address": "100 Ivy Lane",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37216"
+    },
+    {
+      "id": 3,
+      "firstName": "Tom",
+      "lastName": "Clouse",
+      "email": "tom@tom.com",
+      "address": "315 N 9th Street",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37206"
+    },
+    {
+      "email": "bill@bass.com",
+      "firstName": "Bill",
+      "lastName": "Bass",
+      "address": "122 Paradise Street",
+      "city": "Manchester",
+      "state": "TN",
+      "zip": "37355",
+      "id": 4
+    },
+    {
+      "email": "jimmy@jackson.com",
+      "firstName": "Jimmy",
+      "lastName": "Jackson",
+      "address": "715 S 11th Street",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37206",
+      "id": 5
+    }
+  ],
+  "shirts": [
+    {
+      "id": 1,
+      "title": "spiderman",
+      "userId": 1,
+      "sizeId": 3,
+      "imageURL": "https://www.gapfactory.com/webcontent/0019/851/912/cn19851912.jpg",
+      "description": "Cool spiderman tee.",
+      "timestamp": 1623684004,
+      "keywords": [
+        "spiderman",
+        "marvel",
+        "avengers"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ironman flies",
+      "userId": 2,
+      "sizeId": 4,
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71EXBIPOaaL._AC_UY1000_.jpg",
+      "description": "Cool ironman tee.",
+      "timestamp": 1623684100,
+      "keywords": [
+        "ironman",
+        "marvel",
+        "avengers"
+      ]
+    },
+    {
+      "title": "Incredible Hulk",
+      "userId": 4,
+      "sizeId": 5,
+      "imageURL": "https://media.kohlsimg.com/is/image/kohls/3816075_Kelly?wid=1200&hei=1200&op_sharpen=1",
+      "description": "Another Hulk Shirt for you. ",
+      "id": 3
+    },
+    {
+      "title": "Incredible Hulk again",
+      "userId": 3,
+      "sizeId": 5,
+      "imageURL": "https://media.kohlsimg.com/is/image/kohls/4928133?wid=1200&hei=1200&op_sharpen=1",
+      "description": "Another Hulk Shirt for you. ",
+      "id": 4
+    }
+  ],
+  "trades": [
+    {
+      "id": 1,
+      "shirtId": 1,
+      "offerShirtId": 2,
+      "message": "I love Ironman",
+      "accepted": false,
+      "timestamp": 1623684524
+    },
+    {
+      "id": 2,
+      "shirtId": 2,
+      "offerShirtId": 1,
+      "message": "I love Spiderman. Let's trade",
+      "accepted": false,
+      "timestamp": 1623685555
+    },
+    {
+      "shirtId": 1,
+      "offerShirtId": 3,
+      "message": "I love Spiderman. Want to Trade?",
+      "accepted": false,
+      "timestamp": 1623956579788,
+      "id": 4
+    },
+    {
+      "shirtId": 2,
+      "offerShirtId": 1,
+      "message": "Want to swap out for spiderman?",
+      "accepted": false,
+      "timestamp": 1623958261421,
+      "id": 5
+    },
+    {
+      "shirtId": 3,
+      "offerShirtId": 4,
+      "message": "My hulk for your hulk?",
+      "accepted": false,
+      "timestamp": 1624029629408,
+      "id": 6
+    },
+    {
+      "shirtId": 1,
+      "offerShirtId": 2,
+      "message": "Ironman for Spiderman?",
+      "accepted": false,
+      "timestamp": 1624042287033,
+      "id": 7
+    },
+    {
+      "shirtId": 3,
+      "offerShirtId": 1,
+      "message": "Trade your Hulk for my Spiderman?",
+      "accepted": false,
+      "timestamp": 1624042699594,
+      "id": 8
+    },
+    {
+      "shirtId": 3,
+      "offerShirtId": 2,
+      "message": "How about my Ironman for your Hulk?",
+      "accepted": false,
+      "timestamp": 1624044287749,
+      "id": 9
+    },
+    {
+      "shirtId": 2,
+      "offerShirtId": 3,
+      "message": "I love Ironman!",
+      "accepted": false,
+      "timestamp": 1624051463686,
+      "id": 10
+    }
+  ],
+  "sizes": [
+    {
+      "id": 1,
+      "shirtSize": "x-small"
+    },
+    {
+      "id": 2,
+      "shirtSize": "small"
+    },
+    {
+      "id": 3,
+      "shirtSize": "medium"
+    },
+    {
+      "id": 4,
+      "shirtSize": "large"
+    },
+    {
+      "id": 5,
+      "shirtSize": "x-large"
+    },
+    {
+      "id": 6,
+      "shirtSize": "xx-large"
+    }
+  ]
 }
