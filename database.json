@@ -60,27 +60,335 @@
       "imageURL": "https://images-na.ssl-images-amazon.com/images/I/516Uez5%2BMxL._AC_UX679_.jpg",
       "description": "Yoda chills",
       "active": true,
-      "timestamp": 131313123
+      "timestamp": 131313123,
+      "user": {
+        "id": 1,
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "email": "bob@smith.com",
+        "address": "100 Main Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206"
+      },
+      "size": {
+        "id": 3,
+        "shirtSize": "medium"
+      }
     },
     {
-      "id": 2,
-      "title": "Yoda",
+      "title": "Amazing Spiderman",
+      "userId": 1,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391485/ShirtShare/qvghrsvwrwkmhygwxo2j.jpg",
+      "description": "Spiderman swings ",
+      "active": false,
+      "id": 3,
+      "user": {
+        "id": 1,
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "email": "bob@smith.com",
+        "address": "100 Main Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206"
+      },
+      "size": {
+        "id": 3,
+        "shirtSize": "medium"
+      }
+    },
+    {
+      "title": "Best Day Ever",
+      "userId": 1,
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391526/ShirtShare/g7lh0v88jofemterdr88.jpg",
+      "description": "Sunshine and Best Day Ever",
+      "active": false,
+      "id": 4,
+      "user": {
+        "id": 1,
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "email": "bob@smith.com",
+        "address": "100 Main Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206"
+      },
+      "size": {
+        "id": 2,
+        "shirtSize": "small"
+      }
+    },
+    {
+      "title": "Bonnaroo",
       "userId": 2,
-      "sizeId": 5,
-      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/516Uez5%2BMxL._AC_UX679_.jpg",
-      "description": "Yoda chills",
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391596/ShirtShare/za3i6vbtsmi2rwwpacpb.jpg",
+      "description": "Bonnaroo Shirt. Super Groovy",
       "active": true,
-      "timestamp": 131313123
+      "id": 5
+    },
+    {
+      "title": "Captain America",
+      "userId": 2,
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391659/ShirtShare/itrfirx2pky59cavbpqr.webp",
+      "description": "Capitan America's shield. Love this shirt.",
+      "active": true,
+      "id": 6
+    },
+    {
+      "title": "Chicken Makes Breakfast",
+      "userId": 3,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391782/ShirtShare/yaguil6lhdv4maiwq7i6.jpg",
+      "description": "Chickens offer breakfast",
+      "active": true,
+      "id": 7
+    },
+    {
+      "title": "Disco time",
+      "userId": 3,
+      "sizeId": 1,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391822/ShirtShare/a1iuwjjfdgudphjvlohz.png",
+      "description": "A sleek disco shirt",
+      "active": true,
+      "id": 8
+    },
+    {
+      "title": "Friends on the Deathstar",
+      "userId": 3,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391888/ShirtShare/y76wklrmwhuuf5hegvh3.jpg",
+      "description": "A storm trooper laments the senseless deaths of friends.",
+      "active": true,
+      "id": 9
+    },
+    {
+      "title": "Omelette that slide",
+      "userId": 4,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391963/ShirtShare/e9hpnjxbjeftk8xywebn.jpg",
+      "description": "Omlette that one slide. Funny one!",
+      "active": true,
+      "id": 10
+    },
+    {
+      "title": "Marvel Heroes",
+      "userId": 4,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392016/ShirtShare/zqflrxvcdf14csrwlviy.webp",
+      "description": "This has a bunch of Marvel heroes together",
+      "active": true,
+      "id": 11
+    },
+    {
+      "title": "My Little Pony",
+      "userId": 5,
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392105/ShirtShare/vtmq7tkq2312cq2zn5sr.webp",
+      "description": "Loved this one, but too small for me.",
+      "active": true,
+      "id": 12,
+      "user": {
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206",
+        "id": 5
+      },
+      "size": {
+        "id": 2,
+        "shirtSize": "small"
+      }
+    },
+    {
+      "title": "Not a Drill",
+      "userId": 5,
+      "sizeId": 4,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392142/ShirtShare/uglxm9zlvl4flf5jcggw.jpg",
+      "description": "Not a Drill because it's a hammer! Funny shirt.",
+      "active": true,
+      "id": 13
+    },
+    {
+      "title": "Second Shot",
+      "userId": 4,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392286/ShirtShare/yq4y8eb6fwe4rigivrfj.jpg",
+      "description": "I got my second shot and then got a second shot!",
+      "active": true,
+      "id": 14,
+      "user": {
+        "email": "bill@bass.com",
+        "firstName": "Bill",
+        "lastName": "Bass",
+        "address": "122 Paradise Street",
+        "city": "Manchester",
+        "state": "TN",
+        "zip": "37355",
+        "id": 4
+      },
+      "size": {
+        "id": 3,
+        "shirtSize": "medium"
+      }
+    },
+    {
+      "title": "Silver Surfer",
+      "userId": 4,
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392332/ShirtShare/tmrz9ykbibhppomiq2zn.webp",
+      "description": "Silver Surfer rides through space",
+      "active": true,
+      "id": 15
+    },
+    {
+      "title": "Yoda",
+      "userId": 5,
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624396689/ShirtShare/nitrdx6ykygbqhxbgus8.jpg",
+      "description": "Who da ma? Yoda man.",
+      "active": true,
+      "user": {
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206",
+        "id": 5
+      },
+      "size": {
+        "id": 2,
+        "shirtSize": "small"
+      },
+      "id": 16
+    },
+    {
+      "title": "My Little Pony",
+      "userId": 5,
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624461053/ShirtShare/ldoqsc7b5qsogvv49fhu.webp",
+      "description": "dfadsfas",
+      "active": true,
+      "user": {
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206",
+        "id": 5
+      },
+      "size": {
+        "id": 2,
+        "shirtSize": "small"
+      },
+      "id": 18
+    },
+    {
+      "title": "Yoda just chilling",
+      "userId": 5,
+      "sizeId": 5,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624461262/ShirtShare/vxgbhmnc6zsbsrm2p5yn.jpg",
+      "description": "yoda",
+      "active": true,
+      "user": {
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206",
+        "id": 5
+      },
+      "size": {
+        "id": 5,
+        "shirtSize": "x-large"
+      },
+      "id": 19
+    },
+    {
+      "title": "Yoda just chilling",
+      "userId": 5,
+      "sizeId": 4,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624466809/ShirtShare/bhd2ky2qduyiwpxkokz2.jpg",
+      "description": "yodaaaa",
+      "active": true,
+      "user": {
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206",
+        "id": 5
+      },
+      "size": {
+        "id": 4,
+        "shirtSize": "large"
+      },
+      "id": 21
+    },
+    {
+      "title": "Storm",
+      "userId": 5,
+      "sizeId": 4,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624467447/ShirtShare/rjhh0ecib76eph8pl7dx.png",
+      "description": "storm rocks",
+      "active": true,
+      "user": {
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206",
+        "id": 5
+      },
+      "size": {
+        "id": 4,
+        "shirtSize": "large"
+      },
+      "id": 23
+    },
+    {
+      "title": "Silver Surfer",
+      "userId": 1,
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624472356/ShirtShare/ingojhk7oametpr3h308.webp",
+      "description": "Silver Surfer and Galactus",
+      "active": true,
+      "user": {
+        "id": 1,
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "email": "bob@smith.com",
+        "address": "100 Main Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206"
+      },
+      "size": {
+        "id": 2,
+        "shirtSize": "small"
+      },
+      "id": 25
     }
   ],
   "trades": [
-    {
-      "shirtId": 1,
-      "offerShirtId": 2,
-      "message": "Yo, let's switch sizes",
-      "timeAccepted": 0,
-      "timestamp": 0
-    }
   ],
   "sizes": [
     {
