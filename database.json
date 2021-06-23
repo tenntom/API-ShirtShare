@@ -137,8 +137,22 @@
       "sizeId": 2,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391659/ShirtShare/itrfirx2pky59cavbpqr.webp",
       "description": "Capitan America's shield. Love this shirt.",
-      "active": true,
-      "id": 6
+      "active": false,
+      "id": 6,
+      "user": {
+        "id": 2,
+        "firstName": "Jenny",
+        "lastName": "Jones",
+        "email": "jenny@jones.com",
+        "address": "100 Ivy Lane",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37216"
+      },
+      "size": {
+        "id": 2,
+        "shirtSize": "small"
+      }
     },
     {
       "title": "Chicken Makes Breakfast",
@@ -146,17 +160,8 @@
       "sizeId": 3,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391782/ShirtShare/yaguil6lhdv4maiwq7i6.jpg",
       "description": "Chickens offer breakfast",
-      "active": true,
+      "active": false,
       "id": 7
-    },
-    {
-      "title": "Disco time",
-      "userId": 3,
-      "sizeId": 1,
-      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391822/ShirtShare/a1iuwjjfdgudphjvlohz.png",
-      "description": "A sleek disco shirt",
-      "active": true,
-      "id": 8
     },
     {
       "title": "Friends on the Deathstar",
@@ -164,8 +169,22 @@
       "sizeId": 3,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391888/ShirtShare/y76wklrmwhuuf5hegvh3.jpg",
       "description": "A storm trooper laments the senseless deaths of friends.",
-      "active": true,
-      "id": 9
+      "active": false,
+      "id": 9,
+      "user": {
+        "id": 3,
+        "firstName": "Tom",
+        "lastName": "Clouse",
+        "email": "tom@tom.com",
+        "address": "315 N 9th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206"
+      },
+      "size": {
+        "id": 3,
+        "shirtSize": "medium"
+      }
     },
     {
       "title": "Omelette that slide",
@@ -386,9 +405,162 @@
         "shirtSize": "small"
       },
       "id": 25
+    },
+    {
+      "title": "Wolverine Shirt",
+      "userId": 1,
+      "sizeId": 5,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624473591/ShirtShare/tl12p7zufu36htxvz4xi.webp",
+      "description": "Wolverine shirt that's super cool",
+      "active": true,
+      "user": {},
+      "size": {},
+      "id": 26
+    },
+    {
+      "title": "Storm",
+      "userId": 3,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624474724/ShirtShare/hbeoo5eljbjdj9aqgg52.png",
+      "description": "Storm reaches up",
+      "active": false,
+      "user": {
+        "id": 3,
+        "firstName": "Tom",
+        "lastName": "Clouse",
+        "email": "tom@tom.com",
+        "address": "315 N 9th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206"
+      },
+      "size": {
+        "id": 3,
+        "shirtSize": "medium"
+      },
+      "id": 27
+    },
+    {
+      "title": "Not a Drill",
+      "userId": 3,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624474950/ShirtShare/bwehkwurhiuvdjyoggdy.jpg",
+      "description": "Funny shirt for carpenters",
+      "active": false,
+      "user": {
+        "id": 3,
+        "firstName": "Tom",
+        "lastName": "Clouse",
+        "email": "tom@tom.com",
+        "address": "315 N 9th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206"
+      },
+      "size": {
+        "id": 3,
+        "shirtSize": "medium"
+      },
+      "id": 28
+    },
+    {
+      "title": "Tom1",
+      "userId": 3,
+      "sizeId": 5,
+      "imageURL": "",
+      "description": "Another Hulk Shirt for you. ",
+      "active": true,
+      "user": {},
+      "size": {},
+      "id": 29
+    },
+    {
+      "title": "tom 2",
+      "userId": 3,
+      "sizeId": 5,
+      "imageURL": "",
+      "description": "wdsdf",
+      "active": true,
+      "user": {},
+      "size": {},
+      "id": 30
+    },
+    {
+      "title": "tom 3",
+      "userId": 3,
+      "sizeId": 2,
+      "imageURL": "",
+      "description": "d",
+      "active": true,
+      "user": {},
+      "size": {},
+      "id": 31
     }
   ],
   "trades": [
+    {
+      "shirtId": 25,
+      "offerShirtId": 29,
+      "message": "",
+      "timeAccepted": 0,
+      "timestamp": 1624477762263,
+      "shirt": {},
+      "id": 1
+    },
+    {
+      "shirtId": 23,
+      "offerShirtId": 30,
+      "message": "",
+      "timeAccepted": 0,
+      "timestamp": 1624477769607,
+      "shirt": {},
+      "id": 2
+    },
+    {
+      "shirtId": 1,
+      "offerShirtId": 31,
+      "message": "",
+      "timeAccepted": 0,
+      "timestamp": 1624477778937,
+      "shirt": {},
+      "id": 3
+    },
+    {
+      "shirtId": 29,
+      "offerShirtId": 10,
+      "message": "",
+      "timeAccepted": 0,
+      "timestamp": 1624477812849,
+      "shirt": {},
+      "id": 5
+    },
+    {
+      "shirtId": 30,
+      "offerShirtId": 11,
+      "message": "",
+      "timeAccepted": 0,
+      "timestamp": 1624477827365,
+      "shirt": {},
+      "id": 6
+    },
+    {
+      "shirtId": 31,
+      "offerShirtId": 14,
+      "message": "",
+      "timeAccepted": 0,
+      "timestamp": 1624477841545,
+      "shirt": {},
+      "id": 7
+    },
+    {
+      "shirtId": 30,
+      "offerShirtId": 21,
+      "message": "fwgsdf",
+      "timeAccepted": 0,
+      "timestamp": 1624480984485,
+      "shirt": {},
+      "id": 9
+    }
   ],
   "sizes": [
     {
