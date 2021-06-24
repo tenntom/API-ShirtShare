@@ -269,29 +269,6 @@
       "id": 15
     },
     {
-      "title": "Yoda",
-      "userId": 5,
-      "sizeId": 2,
-      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624396689/ShirtShare/nitrdx6ykygbqhxbgus8.jpg",
-      "description": "Who da ma? Yoda man.",
-      "active": true,
-      "user": {
-        "email": "jimmy@jackson.com",
-        "firstName": "Jimmy",
-        "lastName": "Jackson",
-        "address": "715 S 11th Street",
-        "city": "Nashville",
-        "state": "TN",
-        "zip": "37206",
-        "id": 5
-      },
-      "size": {
-        "id": 2,
-        "shirtSize": "small"
-      },
-      "id": 16
-    },
-    {
       "title": "My Little Pony",
       "userId": 5,
       "sizeId": 2,
@@ -317,33 +294,10 @@
     {
       "title": "Yoda just chilling",
       "userId": 5,
-      "sizeId": 5,
-      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624461262/ShirtShare/vxgbhmnc6zsbsrm2p5yn.jpg",
-      "description": "yoda",
-      "active": true,
-      "user": {
-        "email": "jimmy@jackson.com",
-        "firstName": "Jimmy",
-        "lastName": "Jackson",
-        "address": "715 S 11th Street",
-        "city": "Nashville",
-        "state": "TN",
-        "zip": "37206",
-        "id": 5
-      },
-      "size": {
-        "id": 5,
-        "shirtSize": "x-large"
-      },
-      "id": 19
-    },
-    {
-      "title": "Yoda just chilling",
-      "userId": 5,
       "sizeId": 4,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624466809/ShirtShare/bhd2ky2qduyiwpxkokz2.jpg",
       "description": "yodaaaa",
-      "active": true,
+      "active": false,
       "user": {
         "email": "jimmy@jackson.com",
         "firstName": "Jimmy",
@@ -469,9 +423,21 @@
       "sizeId": 5,
       "imageURL": "",
       "description": "Another Hulk Shirt for you. ",
-      "active": true,
-      "user": {},
-      "size": {},
+      "active": false,
+      "user": {
+        "id": 3,
+        "firstName": "Tom",
+        "lastName": "Clouse",
+        "email": "tom@tom.com",
+        "address": "315 N 9th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206"
+      },
+      "size": {
+        "id": 5,
+        "shirtSize": "x-large"
+      },
       "id": 29
     },
     {
@@ -480,28 +446,72 @@
       "sizeId": 5,
       "imageURL": "",
       "description": "wdsdf",
-      "active": true,
+      "active": false,
       "user": {},
       "size": {},
       "id": 30
     },
     {
-      "title": "tom 3",
-      "userId": 3,
+      "title": "Jimmy 1",
+      "userId": 5,
       "sizeId": 2,
       "imageURL": "",
-      "description": "d",
+      "description": "Adfadfa",
+      "active": false,
+      "user": {},
+      "size": {},
+      "id": 32
+    },
+    {
+      "title": "Jimmy 2",
+      "userId": 5,
+      "sizeId": 3,
+      "imageURL": "",
+      "description": "adfasdfda",
       "active": true,
       "user": {},
       "size": {},
-      "id": 31
+      "id": 33
+    },
+    {
+      "title": "Jimmy 3",
+      "userId": 5,
+      "sizeId": 2,
+      "imageURL": "",
+      "description": "sadfadf",
+      "active": true,
+      "user": {},
+      "size": {},
+      "id": 34
+    },
+    {
+      "title": "Jimmy 4",
+      "userId": 5,
+      "sizeId": 3,
+      "imageURL": "",
+      "description": "adsgfadsfad",
+      "active": true,
+      "user": {},
+      "size": {},
+      "id": 35
+    },
+    {
+      "title": "tom 2",
+      "userId": 3,
+      "sizeId": 3,
+      "imageURL": "",
+      "description": "rqewrqewr",
+      "active": true,
+      "user": {},
+      "size": {},
+      "id": 36
     }
   ],
   "trades": [
     {
       "shirtId": 25,
       "offerShirtId": 29,
-      "message": "",
+      "message": "dafadsfa",
       "timeAccepted": 0,
       "timestamp": 1624477762263,
       "shirt": {},
@@ -510,7 +520,7 @@
     {
       "shirtId": 23,
       "offerShirtId": 30,
-      "message": "",
+      "message": "asdfdafdf",
       "timeAccepted": 0,
       "timestamp": 1624477769607,
       "shirt": {},
@@ -519,47 +529,85 @@
     {
       "shirtId": 1,
       "offerShirtId": 31,
-      "message": "",
+      "message": "adfadsfasd",
       "timeAccepted": 0,
       "timestamp": 1624477778937,
       "shirt": {},
       "id": 3
     },
     {
-      "shirtId": 29,
-      "offerShirtId": 10,
-      "message": "",
-      "timeAccepted": 0,
-      "timestamp": 1624477812849,
-      "shirt": {},
-      "id": 5
-    },
-    {
       "shirtId": 30,
       "offerShirtId": 11,
-      "message": "",
+      "message": "adsfasdfa",
       "timeAccepted": 0,
       "timestamp": 1624477827365,
       "shirt": {},
       "id": 6
     },
     {
-      "shirtId": 31,
-      "offerShirtId": 14,
-      "message": "",
-      "timeAccepted": 0,
-      "timestamp": 1624477841545,
-      "shirt": {},
-      "id": 7
-    },
-    {
       "shirtId": 30,
       "offerShirtId": 21,
       "message": "fwgsdf",
-      "timeAccepted": 0,
+      "timeAccepted": 1624544098979,
       "timestamp": 1624480984485,
-      "shirt": {},
+      "shirt": {
+        "title": "tom 2",
+        "userId": 3,
+        "sizeId": 5,
+        "imageURL": "",
+        "description": "wdsdf",
+        "active": true,
+        "user": {},
+        "size": {},
+        "id": 30
+      },
       "id": 9
+    },
+    {
+      "shirtId": 29,
+      "offerShirtId": 13,
+      "message": "asdfasdfasd",
+      "timeAccepted": 0,
+      "timestamp": 1624543481401,
+      "shirt": {},
+      "id": 11
+    },
+    {
+      "shirtId": 29,
+      "offerShirtId": 34,
+      "message": "3 for 1 again",
+      "timeAccepted": 0,
+      "timestamp": 1624558710833,
+      "shirt": {},
+      "id": 16
+    },
+    {
+      "shirtId": 32,
+      "offerShirtId": 29,
+      "message": "I love Ironman!",
+      "timeAccepted": 1624559183588,
+      "timestamp": 1624558767794,
+      "shirt": {
+        "title": "Jimmy 1",
+        "userId": 5,
+        "sizeId": 2,
+        "imageURL": "",
+        "description": "Adfadfa",
+        "active": true,
+        "user": {},
+        "size": {},
+        "id": 32
+      },
+      "id": 17
+    },
+    {
+      "shirtId": 10,
+      "offerShirtId": 36,
+      "message": "adsfasdfads",
+      "timeAccepted": 0,
+      "timestamp": 1624558800631,
+      "shirt": {},
+      "id": 18
     }
   ],
   "sizes": [
