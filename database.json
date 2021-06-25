@@ -406,10 +406,10 @@
       "id": 28
     },
     {
-      "title": "Tom1",
+      "title": "Hulk Shirt",
       "userId": 3,
       "sizeId": 5,
-      "imageURL": "",
+      "imageURL": "https://cdn.shopify.com/s/files/1/0379/9482/3819/products/cosplay-incredible-hulk-custom-t-shirts-hoodies-apparel-mv-dt0302203-3d-custom-fleece-hoodies-hoodie-s-342359_2000x.jpg?v=1601220452",
       "description": "Another Hulk Shirt for you. ",
       "active": false,
       "user": {
@@ -429,21 +429,21 @@
       "id": 29
     },
     {
-      "title": "tom 2",
+      "title": "hulk-y",
       "userId": 3,
       "sizeId": 5,
-      "imageURL": "",
-      "description": "wdsdf",
+      "imageURL": "https://cdn.shopify.com/s/files/1/0379/9482/3819/products/cosplay-incredible-hulk-custom-t-shirts-hoodies-apparel-mv-dt0302203-3d-custom-fleece-hoodies-hoodie-s-342359_2000x.jpg?v=1601220452",
+      "description": "hulk gets ",
       "active": false,
       "user": {},
       "size": {},
       "id": 30
     },
     {
-      "title": "Jimmy 1",
+      "title": "Superman",
       "userId": 5,
       "sizeId": 2,
-      "imageURL": "",
+      "imageURL": "https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-tssuproyal-1-productimagenowatermark.jpg",
       "description": "Adfadfa",
       "active": false,
       "user": {},
@@ -460,17 +460,6 @@
       "user": {},
       "size": {},
       "id": 33
-    },
-    {
-      "title": "A wild disco style shirt",
-      "userId": 3,
-      "sizeId": 4,
-      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624628237/ShirtShare/mxyucblif2feqphbnxxk.jpg",
-      "description": "This one will be sweet for a wild night out. Short Sleeve.",
-      "active": true,
-      "user": {},
-      "size": {},
-      "id": 34
     },
     {
       "title": "Another Disco Shirt",
@@ -548,15 +537,6 @@
       "id": 17
     },
     {
-      "shirtId": 5,
-      "offerShirtId": 34,
-      "message": "I love Bonnaroo. Would you be interested in trading for this shirt?",
-      "timeAccepted": 0,
-      "timestamp": 1624628371528,
-      "shirt": {},
-      "id": 18
-    },
-    {
       "shirtId": 18,
       "offerShirtId": 35,
       "message": "My Little Pony is my favorite. What do you think about Disco?",
@@ -573,15 +553,6 @@
       "timestamp": 1624628807132,
       "shirt": {},
       "id": 20
-    },
-    {
-      "shirtId": 34,
-      "offerShirtId": 23,
-      "message": "This would be a good one for a party coming up. What do you think of superheroes?",
-      "timeAccepted": 0,
-      "timestamp": 1624628840994,
-      "shirt": {},
-      "id": 21
     },
     {
       "shirtId": 35,
@@ -610,6 +581,15 @@
         "id": 36
       },
       "id": 23
+    },
+    {
+      "shirtId": 11,
+      "offerShirtId": 34,
+      "message": "I love Marvel What do you think of Disco?",
+      "timeAccepted": 0,
+      "timestamp": 1624632370932,
+      "shirt": {},
+      "id": 24
     }
   ],
   "sizes": [
