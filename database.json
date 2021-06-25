@@ -315,27 +315,15 @@
       "id": 21
     },
     {
+      "id": 23,
       "title": "Storm",
       "userId": 5,
       "sizeId": 4,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624467447/ShirtShare/rjhh0ecib76eph8pl7dx.png",
       "description": "storm rocks",
       "active": true,
-      "user": {
-        "email": "jimmy@jackson.com",
-        "firstName": "Jimmy",
-        "lastName": "Jackson",
-        "address": "715 S 11th Street",
-        "city": "Nashville",
-        "state": "TN",
-        "zip": "37206",
-        "id": 5
-      },
-      "size": {
-        "id": 4,
-        "shirtSize": "large"
-      },
-      "id": 23
+      "user": {},
+      "size": {}
     },
     {
       "title": "Silver Surfer",
@@ -463,69 +451,74 @@
       "id": 32
     },
     {
-      "title": "Jimmy 2",
-      "userId": 5,
+      "title": "More Cowbell",
+      "userId": 3,
       "sizeId": 3,
-      "imageURL": "",
-      "description": "adfasdfda",
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624628194/ShirtShare/tbzawhbapgjahiybennf.jpg",
+      "description": "Just like the SNL skit!",
       "active": true,
       "user": {},
       "size": {},
       "id": 33
     },
     {
-      "title": "Jimmy 3",
-      "userId": 5,
-      "sizeId": 2,
-      "imageURL": "",
-      "description": "sadfadf",
+      "title": "A wild disco style shirt",
+      "userId": 3,
+      "sizeId": 4,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624628237/ShirtShare/mxyucblif2feqphbnxxk.jpg",
+      "description": "This one will be sweet for a wild night out. Short Sleeve.",
       "active": true,
       "user": {},
       "size": {},
       "id": 34
     },
     {
-      "title": "Jimmy 4",
-      "userId": 5,
-      "sizeId": 3,
-      "imageURL": "",
-      "description": "adsgfadsfad",
+      "title": "Another Disco Shirt",
+      "userId": 3,
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624628304/ShirtShare/yqheo6fvpvl2rofe5ejr.jpg",
+      "description": "This is another great one for a disco party.",
       "active": true,
       "user": {},
       "size": {},
       "id": 35
     },
     {
-      "title": "tom 2",
+      "title": "Stark Industries",
       "userId": 3,
       "sizeId": 3,
-      "imageURL": "",
-      "description": "rqewrqewr",
-      "active": true,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624629010/ShirtShare/vfbpe6c7hzrl1hqsn9ws.jpg",
+      "description": "A great shirt for Ironman fans.",
+      "active": false,
       "user": {},
       "size": {},
       "id": 36
+    },
+    {
+      "title": "Fireworks Guy",
+      "userId": 5,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624629062/ShirtShare/ta7isr5npqkdwzcfmfe7.jpg",
+      "description": "Fun one for the 4th",
+      "active": false,
+      "user": {
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206",
+        "id": 5
+      },
+      "size": {
+        "id": 3,
+        "shirtSize": "medium"
+      },
+      "id": 37
     }
   ],
   "trades": [
-    {
-      "shirtId": 25,
-      "offerShirtId": 29,
-      "message": "dafadsfa",
-      "timeAccepted": 0,
-      "timestamp": 1624477762263,
-      "shirt": {},
-      "id": 1
-    },
-    {
-      "shirtId": 23,
-      "offerShirtId": 30,
-      "message": "asdfdafdf",
-      "timeAccepted": 0,
-      "timestamp": 1624477769607,
-      "shirt": {},
-      "id": 2
-    },
     {
       "shirtId": 1,
       "offerShirtId": 31,
@@ -534,52 +527,6 @@
       "timestamp": 1624477778937,
       "shirt": {},
       "id": 3
-    },
-    {
-      "shirtId": 30,
-      "offerShirtId": 11,
-      "message": "adsfasdfa",
-      "timeAccepted": 0,
-      "timestamp": 1624477827365,
-      "shirt": {},
-      "id": 6
-    },
-    {
-      "shirtId": 30,
-      "offerShirtId": 21,
-      "message": "fwgsdf",
-      "timeAccepted": 1624544098979,
-      "timestamp": 1624480984485,
-      "shirt": {
-        "title": "tom 2",
-        "userId": 3,
-        "sizeId": 5,
-        "imageURL": "",
-        "description": "wdsdf",
-        "active": true,
-        "user": {},
-        "size": {},
-        "id": 30
-      },
-      "id": 9
-    },
-    {
-      "shirtId": 29,
-      "offerShirtId": 13,
-      "message": "asdfasdfasd",
-      "timeAccepted": 0,
-      "timestamp": 1624543481401,
-      "shirt": {},
-      "id": 11
-    },
-    {
-      "shirtId": 29,
-      "offerShirtId": 34,
-      "message": "3 for 1 again",
-      "timeAccepted": 0,
-      "timestamp": 1624558710833,
-      "shirt": {},
-      "id": 16
     },
     {
       "shirtId": 32,
@@ -601,13 +548,68 @@
       "id": 17
     },
     {
-      "shirtId": 10,
-      "offerShirtId": 36,
-      "message": "adsfasdfads",
+      "shirtId": 5,
+      "offerShirtId": 34,
+      "message": "I love Bonnaroo. Would you be interested in trading for this shirt?",
       "timeAccepted": 0,
-      "timestamp": 1624558800631,
+      "timestamp": 1624628371528,
       "shirt": {},
       "id": 18
+    },
+    {
+      "shirtId": 18,
+      "offerShirtId": 35,
+      "message": "My Little Pony is my favorite. What do you think about Disco?",
+      "timeAccepted": 0,
+      "timestamp": 1624628411973,
+      "shirt": {},
+      "id": 19
+    },
+    {
+      "shirtId": 33,
+      "offerShirtId": 13,
+      "message": "I love SNL.  That Will Ferrell is funny.",
+      "timeAccepted": 0,
+      "timestamp": 1624628807132,
+      "shirt": {},
+      "id": 20
+    },
+    {
+      "shirtId": 34,
+      "offerShirtId": 23,
+      "message": "This would be a good one for a party coming up. What do you think of superheroes?",
+      "timeAccepted": 0,
+      "timestamp": 1624628840994,
+      "shirt": {},
+      "id": 21
+    },
+    {
+      "shirtId": 35,
+      "offerShirtId": 18,
+      "message": "I need more disco shirts. What do you think of My Little Pony?",
+      "timeAccepted": 0,
+      "timestamp": 1624628871403,
+      "shirt": {},
+      "id": 22
+    },
+    {
+      "shirtId": 36,
+      "offerShirtId": 37,
+      "message": "Tony Stark is super cool. What do think of this funny shirt?",
+      "timeAccepted": 1624629112954,
+      "timestamp": 1624629101736,
+      "shirt": {
+        "title": "Stark Industries",
+        "userId": 3,
+        "sizeId": 3,
+        "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624629010/ShirtShare/vfbpe6c7hzrl1hqsn9ws.jpg",
+        "description": "A great shirt for Ironman fans.",
+        "active": true,
+        "user": {},
+        "size": {},
+        "id": 36
+      },
+      "id": 23
     }
   ],
   "sizes": [
