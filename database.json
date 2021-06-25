@@ -233,8 +233,22 @@
       "sizeId": 4,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392142/ShirtShare/uglxm9zlvl4flf5jcggw.jpg",
       "description": "Not a Drill because it's a hammer! Funny shirt.",
-      "active": true,
-      "id": 13
+      "active": false,
+      "id": 13,
+      "user": {
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206",
+        "id": 5
+      },
+      "size": {
+        "id": 4,
+        "shirtSize": "large"
+      }
     },
     {
       "title": "Second Shot",
@@ -321,9 +335,21 @@
       "sizeId": 4,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624467447/ShirtShare/rjhh0ecib76eph8pl7dx.png",
       "description": "storm rocks",
-      "active": true,
-      "user": {},
-      "size": {}
+      "active": false,
+      "user": {
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206",
+        "id": 5
+      },
+      "size": {
+        "id": 4,
+        "shirtSize": "large"
+      }
     },
     {
       "title": "Silver Surfer",
@@ -505,6 +531,62 @@
         "shirtSize": "medium"
       },
       "id": 37
+    },
+    {
+      "title": "American Flag",
+      "userId": 3,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624635186/ShirtShare/taejkdnl4pqwjbhkjagy.jpg",
+      "description": "Great one for the 4th!",
+      "active": false,
+      "user": {},
+      "size": {},
+      "id": 38
+    },
+    {
+      "title": "Jimmy 1",
+      "userId": 5,
+      "sizeId": 3,
+      "imageURL": "",
+      "description": "1ewew",
+      "active": false,
+      "user": {
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206",
+        "id": 5
+      },
+      "size": {
+        "id": 3,
+        "shirtSize": "medium"
+      },
+      "id": 40
+    },
+    {
+      "title": "jimy 2",
+      "userId": 5,
+      "sizeId": 2,
+      "imageURL": "",
+      "description": "dfdfgsd",
+      "active": true,
+      "user": {},
+      "size": {},
+      "id": 41
+    },
+    {
+      "title": "tom 1",
+      "userId": 3,
+      "sizeId": 2,
+      "imageURL": "",
+      "description": "fdsgdsg",
+      "active": false,
+      "user": {},
+      "size": {},
+      "id": 42
     }
   ],
   "trades": [
@@ -590,6 +672,72 @@
       "timestamp": 1624632370932,
       "shirt": {},
       "id": 24
+    },
+    {
+      "shirtId": 38,
+      "offerShirtId": 13,
+      "message": "I need this shirt for a big Party!",
+      "timeAccepted": 1624635300199,
+      "timestamp": 1624635249681,
+      "shirt": {
+        "title": "American Flag",
+        "userId": 3,
+        "sizeId": 3,
+        "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624635186/ShirtShare/taejkdnl4pqwjbhkjagy.jpg",
+        "description": "Great one for the 4th!",
+        "active": true,
+        "user": {},
+        "size": {},
+        "id": 38
+      },
+      "id": 25
+    },
+    {
+      "shirtId": 38,
+      "offerShirtId": 23,
+      "message": "Or maybe this one if you don't like the other.",
+      "timeAccepted": 0,
+      "timestamp": 1624635269859,
+      "shirt": {
+        "title": "American Flag",
+        "userId": 3,
+        "sizeId": 3,
+        "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624635186/ShirtShare/taejkdnl4pqwjbhkjagy.jpg",
+        "description": "Great one for the 4th!",
+        "active": false,
+        "user": {},
+        "size": {},
+        "id": 38
+      },
+      "id": 26
+    },
+    {
+      "shirtId": 42,
+      "offerShirtId": 40,
+      "message": "test 1 ",
+      "timeAccepted": 1624636826248,
+      "timestamp": 1624636793132,
+      "shirt": {
+        "title": "tom 1",
+        "userId": 3,
+        "sizeId": 2,
+        "imageURL": "",
+        "description": "fdsgdsg",
+        "active": true,
+        "user": {},
+        "size": {},
+        "id": 42
+      },
+      "id": 27
+    },
+    {
+      "shirtId": 42,
+      "offerShirtId": 41,
+      "message": "test 2",
+      "timeAccepted": 0,
+      "timestamp": 1624636801285,
+      "shirt": {},
+      "id": 28
     }
   ],
   "sizes": [
