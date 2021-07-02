@@ -628,6 +628,7 @@
       "id": 43
     },
     {
+      "id": 44,
       "title": "Arm in a Cast",
       "userId": 5,
       "sizeId": "3",
@@ -636,8 +637,7 @@
       "active": true,
       "timestamp": 1625173038250,
       "user": {},
-      "size": {},
-      "id": 44
+      "size": {}
     }
   ],
   "trades": [
@@ -822,27 +822,27 @@
   "sizes": [
     {
       "id": 1,
-      "shirtSize": "x-small"
+      "shirtSize": "X-Small"
     },
     {
       "id": 2,
-      "shirtSize": "small"
+      "shirtSize": "Small"
     },
     {
       "id": 3,
-      "shirtSize": "medium"
+      "shirtSize": "Medium"
     },
     {
       "id": 4,
-      "shirtSize": "large"
+      "shirtSize": "Large"
     },
     {
       "id": 5,
-      "shirtSize": "x-large"
+      "shirtSize": "X-Large"
     },
     {
       "id": 6,
-      "shirtSize": "xx-large"
+      "shirtSize": "XX-Large"
     }
   ]
 }
