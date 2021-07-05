@@ -70,7 +70,7 @@
       "imageURL": "https://images-na.ssl-images-amazon.com/images/I/516Uez5%2BMxL._AC_UX679_.jpg",
       "description": "Yoda chills",
       "active": true,
-      "timestamp": 131313123,
+      "timestamp": 1513131231112,
       "user": {
         "id": 1,
         "firstName": "Bob",
@@ -117,7 +117,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391526/ShirtShare/g7lh0v88jofemterdr88.jpg",
       "description": "Sunshine and Best Day Ever",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477779037,
       "id": 4,
       "user": {
         "id": 1,
@@ -141,7 +141,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391596/ShirtShare/za3i6vbtsmi2rwwpacpb.jpg",
       "description": "Bonnaroo Shirt. Super Groovy",
       "active": true,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477779137,
       "id": 5
     },
     {
@@ -151,7 +151,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391659/ShirtShare/itrfirx2pky59cavbpqr.webp",
       "description": "Capitan America's shield. Love this shirt.",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477779237,
       "id": 6,
       "user": {
         "id": 2,
@@ -175,7 +175,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391782/ShirtShare/yaguil6lhdv4maiwq7i6.jpg",
       "description": "Chickens offer breakfast",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477779337,
       "id": 7
     },
     {
@@ -185,7 +185,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391888/ShirtShare/y76wklrmwhuuf5hegvh3.jpg",
       "description": "A storm trooper laments the senseless deaths of friends.",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477779437,
       "id": 9,
       "user": {
         "id": 3,
@@ -209,7 +209,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391963/ShirtShare/e9hpnjxbjeftk8xywebn.jpg",
       "description": "Omlette that one slide. Funny one!",
       "active": true,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477779537,
       "id": 10
     },
     {
@@ -219,7 +219,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392016/ShirtShare/zqflrxvcdf14csrwlviy.webp",
       "description": "This has a bunch of Marvel heroes together",
       "active": true,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477768937,
       "id": 11
     },
     {
@@ -230,7 +230,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392105/ShirtShare/vtmq7tkq2312cq2zn5sr.webp",
       "description": "Loved this one, but too small for me. In great condition.",
       "active": true,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477758937,
       "user": {},
       "size": {}
     },
@@ -241,7 +241,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392142/ShirtShare/uglxm9zlvl4flf5jcggw.jpg",
       "description": "Not a Drill because it's a hammer! Funny shirt.",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477748937,
       "id": 13,
       "user": {
         "email": "jimmy@jackson.com",
@@ -265,7 +265,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392286/ShirtShare/yq4y8eb6fwe4rigivrfj.jpg",
       "description": "I got my second shot and then got a second shot!",
       "active": true,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477738937,
       "id": 14,
       "user": {
         "email": "bill@bass.com",
@@ -289,32 +289,8 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392332/ShirtShare/tmrz9ykbibhppomiq2zn.webp",
       "description": "Silver Surfer rides through space",
       "active": true,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477728937,
       "id": 15
-    },
-    {
-      "title": "My Little Pony",
-      "userId": 5,
-      "sizeId": 2,
-      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624461053/ShirtShare/ldoqsc7b5qsogvv49fhu.webp",
-      "description": "dfadsfas",
-      "active": true,
-      "timestamp": 1624477778937,
-      "user": {
-        "email": "jimmy@jackson.com",
-        "firstName": "Jimmy",
-        "lastName": "Jackson",
-        "address": "715 S 11th Street",
-        "city": "Nashville",
-        "state": "TN",
-        "zip": "37206",
-        "id": 5
-      },
-      "size": {
-        "id": 2,
-        "shirtSize": "small"
-      },
-      "id": 18
     },
     {
       "title": "Yoda just chilling",
@@ -323,7 +299,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624466809/ShirtShare/bhd2ky2qduyiwpxkokz2.jpg",
       "description": "yodaaaa",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477708937,
       "user": {
         "email": "jimmy@jackson.com",
         "firstName": "Jimmy",
@@ -348,7 +324,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624467447/ShirtShare/rjhh0ecib76eph8pl7dx.png",
       "description": "storm rocks",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477777937,
       "user": {
         "email": "jimmy@jackson.com",
         "firstName": "Jimmy",
@@ -365,37 +341,13 @@
       }
     },
     {
-      "title": "Silver Surfer",
-      "userId": 1,
-      "sizeId": 2,
-      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624472356/ShirtShare/ingojhk7oametpr3h308.webp",
-      "description": "Silver Surfer and Galactus",
-      "active": true,
-      "timestamp": 1624477778937,
-      "user": {
-        "id": 1,
-        "firstName": "Bob",
-        "lastName": "Smith",
-        "email": "bob@smith.com",
-        "address": "100 Main Street",
-        "city": "Nashville",
-        "state": "TN",
-        "zip": "37206"
-      },
-      "size": {
-        "id": 2,
-        "shirtSize": "small"
-      },
-      "id": 25
-    },
-    {
       "title": "Wolverine Shirt",
       "userId": 1,
       "sizeId": 5,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624473591/ShirtShare/tl12p7zufu36htxvz4xi.webp",
       "description": "Wolverine shirt that's super cool",
       "active": true,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477775937,
       "user": {},
       "size": {},
       "id": 26
@@ -407,7 +359,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624474724/ShirtShare/hbeoo5eljbjdj9aqgg52.png",
       "description": "Storm reaches up",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477774937,
       "user": {
         "id": 3,
         "firstName": "Tom",
@@ -431,7 +383,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624474950/ShirtShare/bwehkwurhiuvdjyoggdy.jpg",
       "description": "Funny shirt for carpenters",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477773937,
       "user": {
         "id": 3,
         "firstName": "Tom",
@@ -455,7 +407,7 @@
       "imageURL": "https://cdn.shopify.com/s/files/1/0379/9482/3819/products/cosplay-incredible-hulk-custom-t-shirts-hoodies-apparel-mv-dt0302203-3d-custom-fleece-hoodies-hoodie-s-342359_2000x.jpg?v=1601220452",
       "description": "Another Hulk Shirt for you. ",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477772937,
       "user": {
         "id": 3,
         "firstName": "Tom",
@@ -479,7 +431,7 @@
       "imageURL": "https://cdn.shopify.com/s/files/1/0379/9482/3819/products/cosplay-incredible-hulk-custom-t-shirts-hoodies-apparel-mv-dt0302203-3d-custom-fleece-hoodies-hoodie-s-342359_2000x.jpg?v=1601220452",
       "description": "hulk gets ",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477771937,
       "user": {},
       "size": {},
       "id": 30
@@ -491,7 +443,7 @@
       "imageURL": "https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-tssuproyal-1-productimagenowatermark.jpg",
       "description": "Adfadfa",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624467778937,
       "user": {},
       "size": {},
       "id": 32
@@ -503,7 +455,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624628194/ShirtShare/tbzawhbapgjahiybennf.jpg",
       "description": "Just like the SNL skit!",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624457778937,
       "user": {
         "id": 3,
         "firstName": "Tom",
@@ -527,7 +479,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624628304/ShirtShare/yqheo6fvpvl2rofe5ejr.jpg",
       "description": "This is another great one for a disco party.",
       "active": true,
-      "timestamp": 1624477778937,
+      "timestamp": 1624447778937,
       "user": {},
       "size": {},
       "id": 35
@@ -539,7 +491,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624629010/ShirtShare/vfbpe6c7hzrl1hqsn9ws.jpg",
       "description": "A great shirt for Ironman fans.",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477678937,
       "user": {},
       "size": {},
       "id": 36
@@ -551,7 +503,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624629062/ShirtShare/ta7isr5npqkdwzcfmfe7.jpg",
       "description": "Fun one for the 4th",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477578937,
       "user": {
         "email": "jimmy@jackson.com",
         "firstName": "Jimmy",
@@ -575,7 +527,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624635186/ShirtShare/taejkdnl4pqwjbhkjagy.jpg",
       "description": "Great one for the 4th!",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477478937,
       "user": {},
       "size": {},
       "id": 38
@@ -587,7 +539,7 @@
       "imageURL": "",
       "description": "1ewew",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477378937,
       "user": {
         "email": "jimmy@jackson.com",
         "firstName": "Jimmy",
@@ -611,7 +563,7 @@
       "imageURL": "",
       "description": "fdsgdsg",
       "active": false,
-      "timestamp": 1624477778937,
+      "timestamp": 1624477278937,
       "user": {},
       "size": {},
       "id": 42
@@ -642,15 +594,6 @@
   ],
   "trades": [
     {
-      "shirtId": 1,
-      "offerShirtId": 31,
-      "message": "adfadsfasd",
-      "timeAccepted": 0,
-      "timestamp": 1624477778937,
-      "shirt": {},
-      "id": 3
-    },
-    {
       "shirtId": 32,
       "offerShirtId": 29,
       "message": "I love Ironman!",
@@ -668,15 +611,6 @@
         "id": 32
       },
       "id": 17
-    },
-    {
-      "shirtId": 18,
-      "offerShirtId": 35,
-      "message": "My Little Pony is my favorite. What do you think about Disco?",
-      "timeAccepted": 0,
-      "timestamp": 1624628411973,
-      "shirt": {},
-      "id": 19
     },
     {
       "shirtId": 33,
@@ -763,43 +697,6 @@
       "id": 26
     },
     {
-      "shirtId": 42,
-      "offerShirtId": 40,
-      "message": "test 1 ",
-      "timeAccepted": 1624636826248,
-      "timestamp": 1624636793132,
-      "shirt": {
-        "title": "tom 1",
-        "userId": 3,
-        "sizeId": 2,
-        "imageURL": "",
-        "description": "fdsgdsg",
-        "active": true,
-        "user": {},
-        "size": {},
-        "id": 42
-      },
-      "id": 27
-    },
-    {
-      "shirtId": 42,
-      "offerShirtId": 41,
-      "message": "test 2",
-      "timeAccepted": 0,
-      "timestamp": 1624636801285,
-      "shirt": {},
-      "id": 28
-    },
-    {
-      "shirtId": 1,
-      "offerShirtId": 43,
-      "message": "How about trading shirts?",
-      "timeAccepted": 0,
-      "timestamp": 1624648210332,
-      "shirt": {},
-      "id": 29
-    },
-    {
       "shirtId": 43,
       "offerShirtId": 33,
       "message": "Cowbell for Surfer?",
@@ -817,6 +714,24 @@
         "id": 43
       },
       "id": 30
+    },
+    {
+      "shirtId": 11,
+      "offerShirtId": 25,
+      "message": "Let's Trade Test",
+      "timeAccepted": 0,
+      "timestamp": 1625522430400,
+      "shirt": {},
+      "id": 31
+    },
+    {
+      "shirtId": 35,
+      "offerShirtId": 18,
+      "message": "Test this again",
+      "timeAccepted": 0,
+      "timestamp": 1625523252043,
+      "shirt": {},
+      "id": 33
     }
   ],
   "sizes": [
