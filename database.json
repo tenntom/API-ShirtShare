@@ -49,6 +49,26 @@
       "state": "TN",
       "zip": "37206",
       "id": 5
+    },
+    {
+      "email": "robert@downey.com",
+      "firstName": "Robert",
+      "lastName": "Downey",
+      "address": "100 Beverly Hills Drive",
+      "city": "Beverly Hills",
+      "state": "CA",
+      "zip": "94402",
+      "id": 6
+    },
+    {
+      "email": "hulk@hulk.com",
+      "firstName": "Hulk",
+      "lastName": "Hogan",
+      "address": "1000 Brotherman Lane",
+      "city": "Your Town",
+      "state": "TN",
+      "zip": "37215",
+      "id": 7
     }
   ],
   "shirts": [
@@ -60,7 +80,7 @@
       "imageURL": "https://images-na.ssl-images-amazon.com/images/I/516Uez5%2BMxL._AC_UX679_.jpg",
       "description": "Yoda chills",
       "active": true,
-      "timestamp": 131313123,
+      "timestamp": 1513131231112,
       "user": {
         "id": 1,
         "firstName": "Bob",
@@ -83,6 +103,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391485/ShirtShare/qvghrsvwrwkmhygwxo2j.jpg",
       "description": "Spiderman swings ",
       "active": false,
+      "timestamp": 1624477778937,
       "id": 3,
       "user": {
         "id": 1,
@@ -106,6 +127,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391526/ShirtShare/g7lh0v88jofemterdr88.jpg",
       "description": "Sunshine and Best Day Ever",
       "active": false,
+      "timestamp": 1624477779037,
       "id": 4,
       "user": {
         "id": 1,
@@ -123,21 +145,13 @@
       }
     },
     {
-      "title": "Bonnaroo",
-      "userId": 2,
-      "sizeId": 2,
-      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391596/ShirtShare/za3i6vbtsmi2rwwpacpb.jpg",
-      "description": "Bonnaroo Shirt. Super Groovy",
-      "active": true,
-      "id": 5
-    },
-    {
       "title": "Captain America",
       "userId": 2,
       "sizeId": 2,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391659/ShirtShare/itrfirx2pky59cavbpqr.webp",
       "description": "Capitan America's shield. Love this shirt.",
       "active": false,
+      "timestamp": 1624477779237,
       "id": 6,
       "user": {
         "id": 2,
@@ -161,6 +175,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391782/ShirtShare/yaguil6lhdv4maiwq7i6.jpg",
       "description": "Chickens offer breakfast",
       "active": false,
+      "timestamp": 1624477779337,
       "id": 7
     },
     {
@@ -170,6 +185,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391888/ShirtShare/y76wklrmwhuuf5hegvh3.jpg",
       "description": "A storm trooper laments the senseless deaths of friends.",
       "active": false,
+      "timestamp": 1624477779437,
       "id": 9,
       "user": {
         "id": 3,
@@ -193,6 +209,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624391963/ShirtShare/e9hpnjxbjeftk8xywebn.jpg",
       "description": "Omlette that one slide. Funny one!",
       "active": true,
+      "timestamp": 1624477779537,
       "id": 10
     },
     {
@@ -202,16 +219,30 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392016/ShirtShare/zqflrxvcdf14csrwlviy.webp",
       "description": "This has a bunch of Marvel heroes together",
       "active": true,
+      "timestamp": 1624477768937,
       "id": 11
     },
     {
+      "id": 12,
       "title": "My Little Pony",
       "userId": 5,
       "sizeId": 2,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392105/ShirtShare/vtmq7tkq2312cq2zn5sr.webp",
-      "description": "Loved this one, but too small for me.",
+      "description": "Loved this one, but too small for me. In great condition.",
       "active": true,
-      "id": 12,
+      "timestamp": 1624477758937,
+      "user": {},
+      "size": {}
+    },
+    {
+      "title": "Not a Drill",
+      "userId": 5,
+      "sizeId": 4,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392142/ShirtShare/uglxm9zlvl4flf5jcggw.jpg",
+      "description": "Not a Drill because it's a hammer! Funny shirt.",
+      "active": false,
+      "timestamp": 1624477748937,
+      "id": 13,
       "user": {
         "email": "jimmy@jackson.com",
         "firstName": "Jimmy",
@@ -223,18 +254,9 @@
         "id": 5
       },
       "size": {
-        "id": 2,
-        "shirtSize": "small"
+        "id": 4,
+        "shirtSize": "large"
       }
-    },
-    {
-      "title": "Not a Drill",
-      "userId": 5,
-      "sizeId": 4,
-      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392142/ShirtShare/uglxm9zlvl4flf5jcggw.jpg",
-      "description": "Not a Drill because it's a hammer! Funny shirt.",
-      "active": true,
-      "id": 13
     },
     {
       "title": "Second Shot",
@@ -243,6 +265,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392286/ShirtShare/yq4y8eb6fwe4rigivrfj.jpg",
       "description": "I got my second shot and then got a second shot!",
       "active": true,
+      "timestamp": 1624477738937,
       "id": 14,
       "user": {
         "email": "bill@bass.com",
@@ -266,30 +289,8 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624392332/ShirtShare/tmrz9ykbibhppomiq2zn.webp",
       "description": "Silver Surfer rides through space",
       "active": true,
+      "timestamp": 1624477728937,
       "id": 15
-    },
-    {
-      "title": "My Little Pony",
-      "userId": 5,
-      "sizeId": 2,
-      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624461053/ShirtShare/ldoqsc7b5qsogvv49fhu.webp",
-      "description": "dfadsfas",
-      "active": true,
-      "user": {
-        "email": "jimmy@jackson.com",
-        "firstName": "Jimmy",
-        "lastName": "Jackson",
-        "address": "715 S 11th Street",
-        "city": "Nashville",
-        "state": "TN",
-        "zip": "37206",
-        "id": 5
-      },
-      "size": {
-        "id": 2,
-        "shirtSize": "small"
-      },
-      "id": 18
     },
     {
       "title": "Yoda just chilling",
@@ -298,6 +299,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624466809/ShirtShare/bhd2ky2qduyiwpxkokz2.jpg",
       "description": "yodaaaa",
       "active": false,
+      "timestamp": 1624477708937,
       "user": {
         "email": "jimmy@jackson.com",
         "firstName": "Jimmy",
@@ -321,32 +323,22 @@
       "sizeId": 4,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624467447/ShirtShare/rjhh0ecib76eph8pl7dx.png",
       "description": "storm rocks",
-      "active": true,
-      "user": {},
-      "size": {}
-    },
-    {
-      "title": "Silver Surfer",
-      "userId": 1,
-      "sizeId": 2,
-      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624472356/ShirtShare/ingojhk7oametpr3h308.webp",
-      "description": "Silver Surfer and Galactus",
-      "active": true,
+      "active": false,
+      "timestamp": 1624477777937,
       "user": {
-        "id": 1,
-        "firstName": "Bob",
-        "lastName": "Smith",
-        "email": "bob@smith.com",
-        "address": "100 Main Street",
+        "email": "jimmy@jackson.com",
+        "firstName": "Jimmy",
+        "lastName": "Jackson",
+        "address": "715 S 11th Street",
         "city": "Nashville",
         "state": "TN",
-        "zip": "37206"
+        "zip": "37206",
+        "id": 5
       },
       "size": {
-        "id": 2,
-        "shirtSize": "small"
-      },
-      "id": 25
+        "id": 4,
+        "shirtSize": "large"
+      }
     },
     {
       "title": "Wolverine Shirt",
@@ -355,6 +347,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624473591/ShirtShare/tl12p7zufu36htxvz4xi.webp",
       "description": "Wolverine shirt that's super cool",
       "active": true,
+      "timestamp": 1624477775937,
       "user": {},
       "size": {},
       "id": 26
@@ -366,6 +359,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624474724/ShirtShare/hbeoo5eljbjdj9aqgg52.png",
       "description": "Storm reaches up",
       "active": false,
+      "timestamp": 1624477774937,
       "user": {
         "id": 3,
         "firstName": "Tom",
@@ -389,6 +383,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624474950/ShirtShare/bwehkwurhiuvdjyoggdy.jpg",
       "description": "Funny shirt for carpenters",
       "active": false,
+      "timestamp": 1624477773937,
       "user": {
         "id": 3,
         "firstName": "Tom",
@@ -412,6 +407,7 @@
       "imageURL": "https://cdn.shopify.com/s/files/1/0379/9482/3819/products/cosplay-incredible-hulk-custom-t-shirts-hoodies-apparel-mv-dt0302203-3d-custom-fleece-hoodies-hoodie-s-342359_2000x.jpg?v=1601220452",
       "description": "Another Hulk Shirt for you. ",
       "active": false,
+      "timestamp": 1624477772937,
       "user": {
         "id": 3,
         "firstName": "Tom",
@@ -435,6 +431,7 @@
       "imageURL": "https://cdn.shopify.com/s/files/1/0379/9482/3819/products/cosplay-incredible-hulk-custom-t-shirts-hoodies-apparel-mv-dt0302203-3d-custom-fleece-hoodies-hoodie-s-342359_2000x.jpg?v=1601220452",
       "description": "hulk gets ",
       "active": false,
+      "timestamp": 1624477771937,
       "user": {},
       "size": {},
       "id": 30
@@ -446,6 +443,7 @@
       "imageURL": "https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-tssuproyal-1-productimagenowatermark.jpg",
       "description": "Adfadfa",
       "active": false,
+      "timestamp": 1624467778937,
       "user": {},
       "size": {},
       "id": 32
@@ -456,9 +454,22 @@
       "sizeId": 3,
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624628194/ShirtShare/tbzawhbapgjahiybennf.jpg",
       "description": "Just like the SNL skit!",
-      "active": true,
-      "user": {},
-      "size": {},
+      "active": false,
+      "timestamp": 1624457778937,
+      "user": {
+        "id": 3,
+        "firstName": "Tom",
+        "lastName": "Clouse",
+        "email": "tom@tom.com",
+        "address": "315 N 9th Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37206"
+      },
+      "size": {
+        "id": 3,
+        "shirtSize": "medium"
+      },
       "id": 33
     },
     {
@@ -468,6 +479,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624628304/ShirtShare/yqheo6fvpvl2rofe5ejr.jpg",
       "description": "This is another great one for a disco party.",
       "active": true,
+      "timestamp": 1624447778937,
       "user": {},
       "size": {},
       "id": 35
@@ -479,6 +491,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624629010/ShirtShare/vfbpe6c7hzrl1hqsn9ws.jpg",
       "description": "A great shirt for Ironman fans.",
       "active": false,
+      "timestamp": 1624477678937,
       "user": {},
       "size": {},
       "id": 36
@@ -490,6 +503,7 @@
       "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624629062/ShirtShare/ta7isr5npqkdwzcfmfe7.jpg",
       "description": "Fun one for the 4th",
       "active": false,
+      "timestamp": 1624477578937,
       "user": {
         "email": "jimmy@jackson.com",
         "firstName": "Jimmy",
@@ -505,64 +519,212 @@
         "shirtSize": "medium"
       },
       "id": 37
+    },
+    {
+      "title": "American Flag",
+      "userId": 3,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624635186/ShirtShare/taejkdnl4pqwjbhkjagy.jpg",
+      "description": "Great one for the 4th!",
+      "active": false,
+      "timestamp": 1624477478937,
+      "user": {},
+      "size": {},
+      "id": 38
+    },
+    {
+      "title": "Silver Surfer",
+      "userId": 6,
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624648183/ShirtShare/xpcqqzqwuwd0lb8sglrm.webp",
+      "description": "silver surfer again",
+      "active": false,
+      "user": {},
+      "size": {},
+      "id": 43
+    },
+    {
+      "id": 44,
+      "title": "Arm in a Cast",
+      "userId": 5,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625173016/ShirtShare/lwtkktixzlgh9uvm6bcs.jpg",
+      "description": "Great one for all those fishermen out there. ",
+      "active": true,
+      "timestamp": 1625173038250,
+      "user": {},
+      "size": {}
+    },
+    {
+      "title": "Bonnaroo",
+      "userId": 3,
+      "sizeId": 2,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625524112/ShirtShare/qa0deigotvfjs9hx9pcp.jpg",
+      "description": "Super Groovy Shirt from Bonnaroo 2005",
+      "active": true,
+      "timestamp": 1625524157222,
+      "user": {},
+      "size": {},
+      "id": 45
+    },
+    {
+      "title": "Deadpool",
+      "userId": 3,
+      "sizeId": 4,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625524233/ShirtShare/iinqenkdaie9uxg1h0lr.jpg",
+      "description": "Deadpool rides a unicorn.",
+      "active": true,
+      "timestamp": 1625524270344,
+      "user": {},
+      "size": {},
+      "id": 46
+    },
+    {
+      "title": "Run DMC",
+      "userId": 3,
+      "sizeId": 5,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625524305/ShirtShare/l2sjao6l6vgsr2felzys.jpg",
+      "description": "Super comfortable Run DMC shirt",
+      "active": true,
+      "timestamp": 1625524351020,
+      "user": {},
+      "size": {},
+      "id": 47
+    },
+    {
+      "title": "Laser cats",
+      "userId": 3,
+      "sizeId": 1,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625524380/ShirtShare/jdwcx2emhmic1vxtmfk2.jpg",
+      "description": "These cats have laser eyes!",
+      "active": true,
+      "timestamp": 1625524412272,
+      "user": {},
+      "size": {},
+      "id": 48
+    },
+    {
+      "title": "Good Vibes",
+      "userId": 3,
+      "sizeId": 4,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625524563/ShirtShare/donakumdghatuhbzkkdm.jpg",
+      "description": "Good Vibes with Mr. Rogers in his neighborhood.",
+      "active": true,
+      "timestamp": 1625524629980,
+      "user": {},
+      "size": {},
+      "id": 49
+    },
+    {
+      "title": "Red Hot Chili Peppers",
+      "userId": 3,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625524698/ShirtShare/hicwv5dui37jqnxg5wzr.jpg",
+      "description": "Red Hot Chili Peppers, old school design",
+      "active": true,
+      "timestamp": 1625524743706,
+      "user": {},
+      "size": {},
+      "id": 50
+    },
+    {
+      "title": "Bruce Lee DJs",
+      "userId": 6,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625524836/ShirtShare/ycqd4xyw5bjvyohhycnx.jpg",
+      "description": "Bruce Lee does a DJ set.",
+      "active": true,
+      "timestamp": 1625524886664,
+      "user": {},
+      "size": {},
+      "id": 51
+    },
+    {
+      "title": "Black Sabbath",
+      "userId": 6,
+      "sizeId": 4,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625524922/ShirtShare/vpr7b8njai3ayengn50g.jpg",
+      "description": "This Black Sabbath Shirt totally rocks.",
+      "active": true,
+      "timestamp": 1625524950529,
+      "user": {},
+      "size": {},
+      "id": 52
+    },
+    {
+      "title": "24\" Pythons",
+      "userId": 7,
+      "sizeId": 5,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625525022/ShirtShare/ewaurj0ovk8q1oba9fzx.jpg",
+      "description": "24 inch Pythons, brother!",
+      "active": true,
+      "timestamp": 1625525056530,
+      "user": {},
+      "size": {},
+      "id": 53
+    },
+    {
+      "title": "Hulk Shirt",
+      "userId": 7,
+      "sizeId": 4,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625525082/ShirtShare/kvqt1stkpc7ekowmcw6h.jpg",
+      "description": "This one's got a little tear but still in good shape. ",
+      "active": true,
+      "timestamp": 1625525113708,
+      "user": {},
+      "size": {},
+      "id": 54
+    },
+    {
+      "title": "Best Day Ever",
+      "userId": 2,
+      "sizeId": 3,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625525193/ShirtShare/qyqx1vp7ztfahcp1xd4f.jpg",
+      "description": "I love this shirt. So cheerful!",
+      "active": true,
+      "timestamp": 1625525225359,
+      "user": {},
+      "size": {},
+      "id": 55
+    },
+    {
+      "title": "American Flag",
+      "userId": 2,
+      "sizeId": 1,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625525894/ShirtShare/bxbf5zt10kjuoadzzokq.jpg",
+      "description": "Patriotic Shirt for the 4th!",
+      "active": true,
+      "timestamp": 1625525921205,
+      "user": {},
+      "size": {},
+      "id": 56
+    },
+    {
+      "title": "Yoda Man",
+      "userId": 5,
+      "sizeId": 4,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625528535/ShirtShare/n4nlfr53mkhjacu9t5qx.jpg",
+      "description": "Another Yoda shirt for you. This one is funny.",
+      "active": true,
+      "timestamp": 1625528592016,
+      "user": {},
+      "size": {},
+      "id": 57
+    },
+    {
+      "id": 58,
+      "title": "Captain America",
+      "userId": 3,
+      "sizeId": 6,
+      "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1625528915/ShirtShare/k6rmadhp09oxdhsz01rd.webp",
+      "description": "Great shirt, but a little too large for me. ",
+      "active": true,
+      "timestamp": 1625535768022,
+      "user": {},
+      "size": {}
     }
   ],
   "trades": [
-    {
-      "shirtId": 1,
-      "offerShirtId": 31,
-      "message": "adfadsfasd",
-      "timeAccepted": 0,
-      "timestamp": 1624477778937,
-      "shirt": {},
-      "id": 3
-    },
-    {
-      "shirtId": 32,
-      "offerShirtId": 29,
-      "message": "I love Ironman!",
-      "timeAccepted": 1624559183588,
-      "timestamp": 1624558767794,
-      "shirt": {
-        "title": "Jimmy 1",
-        "userId": 5,
-        "sizeId": 2,
-        "imageURL": "",
-        "description": "Adfadfa",
-        "active": true,
-        "user": {},
-        "size": {},
-        "id": 32
-      },
-      "id": 17
-    },
-    {
-      "shirtId": 18,
-      "offerShirtId": 35,
-      "message": "My Little Pony is my favorite. What do you think about Disco?",
-      "timeAccepted": 0,
-      "timestamp": 1624628411973,
-      "shirt": {},
-      "id": 19
-    },
-    {
-      "shirtId": 33,
-      "offerShirtId": 13,
-      "message": "I love SNL.  That Will Ferrell is funny.",
-      "timeAccepted": 0,
-      "timestamp": 1624628807132,
-      "shirt": {},
-      "id": 20
-    },
-    {
-      "shirtId": 35,
-      "offerShirtId": 18,
-      "message": "I need more disco shirts. What do you think of My Little Pony?",
-      "timeAccepted": 0,
-      "timestamp": 1624628871403,
-      "shirt": {},
-      "id": 22
-    },
     {
       "shirtId": 36,
       "offerShirtId": 37,
@@ -590,32 +752,115 @@
       "timestamp": 1624632370932,
       "shirt": {},
       "id": 24
+    },
+    {
+      "shirtId": 38,
+      "offerShirtId": 13,
+      "message": "I need this shirt for a big Party!",
+      "timeAccepted": 1624635300199,
+      "timestamp": 1624635249681,
+      "shirt": {
+        "title": "American Flag",
+        "userId": 3,
+        "sizeId": 3,
+        "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624635186/ShirtShare/taejkdnl4pqwjbhkjagy.jpg",
+        "description": "Great one for the 4th!",
+        "active": true,
+        "user": {},
+        "size": {},
+        "id": 38
+      },
+      "id": 25
+    },
+    {
+      "shirtId": 43,
+      "offerShirtId": 33,
+      "message": "Cowbell for Surfer?",
+      "timeAccepted": 1624648315693,
+      "timestamp": 1624648254256,
+      "shirt": {
+        "title": "Silver Surfer",
+        "userId": 6,
+        "sizeId": 2,
+        "imageURL": "https://res.cloudinary.com/tenntom/image/upload/v1624648183/ShirtShare/xpcqqzqwuwd0lb8sglrm.webp",
+        "description": "silver surfer again",
+        "active": true,
+        "user": {},
+        "size": {},
+        "id": 43
+      },
+      "id": 30
+    },
+    {
+      "shirtId": 11,
+      "offerShirtId": 25,
+      "message": "Let's Trade Test",
+      "timeAccepted": 0,
+      "timestamp": 1625522430400,
+      "shirt": {},
+      "id": 31
+    },
+    {
+      "shirtId": 11,
+      "offerShirtId": 45,
+      "message": "My nephew loves Marvel. Would you be interested in my Bonnaroo 2005 shirt?",
+      "timeAccepted": 0,
+      "timestamp": 1625535598620,
+      "shirt": {},
+      "id": 35
+    },
+    {
+      "shirtId": 47,
+      "offerShirtId": 54,
+      "message": "Run DMC is the bomb, brother. How about a ripped up Hulkamanic shirt?",
+      "timeAccepted": 0,
+      "timestamp": 1625535665896,
+      "shirt": {},
+      "id": 36
+    },
+    {
+      "shirtId": 50,
+      "offerShirtId": 10,
+      "message": "The Red Hot Chili Peppers are my favorite band. Do you like funny shirts like this one?",
+      "timeAccepted": 0,
+      "timestamp": 1625535714812,
+      "shirt": {},
+      "id": 37
+    },
+    {
+      "shirtId": 57,
+      "offerShirtId": 50,
+      "message": "Yoda is the Man.  Are you a music fan?",
+      "timeAccepted": 0,
+      "timestamp": 1625536873289,
+      "shirt": {},
+      "id": 38
     }
   ],
   "sizes": [
     {
       "id": 1,
-      "shirtSize": "x-small"
+      "shirtSize": "X-Small"
     },
     {
       "id": 2,
-      "shirtSize": "small"
+      "shirtSize": "Small"
     },
     {
       "id": 3,
-      "shirtSize": "medium"
+      "shirtSize": "Medium"
     },
     {
       "id": 4,
-      "shirtSize": "large"
+      "shirtSize": "Large"
     },
     {
       "id": 5,
-      "shirtSize": "x-large"
+      "shirtSize": "X-Large"
     },
     {
       "id": 6,
-      "shirtSize": "xx-large"
+      "shirtSize": "XX-Large"
     }
   ]
 }
